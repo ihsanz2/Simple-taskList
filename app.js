@@ -13,7 +13,7 @@ loadEvenListener();
 //fungsi eventlistener
 function loadEvenListener () {
   //me load DPM document
-  document.addEventListener('DOMContentLoaded', ambilTask())
+  document.addEventListener('DOMContentLoaded', ambilTask)
 
 //nambah task
   form.addEventListener('submit', addTask);
